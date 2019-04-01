@@ -1,0 +1,24 @@
+#the beginning 
+#for testing, bleachbit is commented out to prevent accidentally nuking your email/login tokens. please use responsibly 
+export BLUE='\033[1;94m'
+export GREEN='\033[1;92m'
+export RED='\033[1;91m'
+export PINK='\033[;95m'
+
+echo $BLUE you ready to wreck some
+echo $GREEN S$BLUE H$RED I$GREEN T 
+
+if service network-manager restart; then
+echo $PINK NETWORK MANAGER DOWN MOTHERFUCKER
+fi
+sudo killall -q chrome dropbox iceweasel skype icedove thunderbird firefox firefox-esr chromium xchat hexchat transmission steam firejail
+echo $RED IM FROM BUENOS ARES AND I SAY KILL EM ALL
+
+#if bleachbit -c adobe_reader.cache chromium.cache chromium.current_session chromium.history elinks.history emesene.cache epiphany.cache firefox.url_history flash.cache flash.cookies google_chrome.cache google_chrome.history  links2.history opera.cache opera.search_history opera.url_history &> /dev/null; then
+#echo $BLUE like with a cloth or something?
+if ifconfig wlan0 down || macchanger wlan0 -a; then
+echo $GREEN EFG AQUIRED, MAXIMUM FAIL OVERDRIVE DUBS INCOMING
+fi
+echo $BLUE LETS$GREEN GET$RED RE$GREEN DICK$BLUE YOU$PINK LESS
+sleep 1
+fi
